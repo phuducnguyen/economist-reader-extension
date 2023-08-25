@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Economist Content Unlocker",
+  "version": "1.2",
+  "author": "Phu Duc Nguyen",
+  "description": "Unlock paywalled content on Economist articles",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_title": "Click to Read Content",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
