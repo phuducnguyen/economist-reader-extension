@@ -3,7 +3,7 @@
   "name": "Economist Content Unlocker",
   "version": "1.2",
   "author": "Phu Duc Nguyen",
-  "description": "Unlock paywalled content on Economist articles",
+  "description": "Unlock content on Economist articles",
   "permissions": [
     "activeTab",
     "scripting"
